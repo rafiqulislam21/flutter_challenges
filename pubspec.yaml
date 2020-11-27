@@ -30,6 +30,11 @@ dependencies:
   cupertino_icons: ^1.0.0
   flutter_swiper: ^1.1.6
 
+  #clock app
+  google_fonts: ^1.1.0 # it helps us to use google fonts on our app
+  flutter_svg: ^0.18.0 # it helps us to use SVG in our app
+  provider: ^4.3.2+1 # Our state management package
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -48,6 +53,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
+    - assets/icons/
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
